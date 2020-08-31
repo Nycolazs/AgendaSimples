@@ -35,7 +35,7 @@ public class Agenda {
     public void deletaPessoa(){
         int pok = 0;
         if(contador!=1){
-            while(pok!=33){
+            if(pok!=33){
                 System.out.println("Digite o nome da pessoa que deseja deletar");
                 String apaga = ler.next();
                 String temp = apaga;
